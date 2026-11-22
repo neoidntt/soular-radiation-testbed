@@ -64,43 +64,84 @@ sigma(LET) = sigma_SAT * (1 - exp(-((LET - LET0) / W)^s))   for LET >= LET0
 Here LET is linear energy transfer (MeV·cm²/mg), `sigma_SAT` is the saturation cross-section, `LET0` is the onset
 threshold, and `W`, `s` are shape parameters. The result is that cross-section rises with LET, so a higher-LET
 particle is more likely to cause an upset. LET values came from the Texas A&M Cyclotron Institute heavy-ion beam
-list. The fitting code is in [`software/curve-fitting/`](software/curve-fitting/).
+list. The fitting code is in [`current/software/curve-fitting/`](current/software/curve-fitting/).
 
-## Repository layout
+## Repository layout: current vs legacy
+
+The code is split in two so you can always tell the **final, current** work from the **older iterations**.
+
+| Folder | What it is | Status |
+|---|---|---|
+| [`current/`](current/) | The final firmware, monitor GUI, curve-fitting tool and TID data-processing script used for the 2026 results. This is what the [**v1.0.0 release**](../../releases/latest) packages. | **Newest** |
+| [`legacy/`](legacy/) | Earlier prototypes and superseded versions, kept for history. | Old, not maintained |
 
 ```
-firmware/
-  teensy-testbed/          Flash_FRAM_Serial2.ino, the final Teensy 4.1 firmware
-  early-prototypes/        Earlier SEU-detector / memory-scrubbing sketches (LCD + LEDs)
-software/
-  memory-test-monitor/     Python Tk GUI: live plots, serial log, CSV export
-  curve-fitting/           Weibull fit tool (CLI, desktop GUI, drag-and-drop web app)
-  math-graphing/           Early scatter-plot and curve-fit experiments
-data/
-  pre-radiation-baseline/  Baseline CSV logs (2026-05-01), no interruption
+current/                               NEWEST (released as v1.0.0)
+  firmware/
+    Memory_Test_Monitor_Final_Version.ino    Final Teensy 4.1 firmware (2026-05-01)
+  software/
+    memory-test-monitor/                     Python GUI v3 (2026-05-01): live plots, serial log, CSV
+    curve-fitting/                           Weibull fit tool (CLI, desktop GUI, web app)
+    tid-data-processing/                     plotTIDCurrent.py: plots DUT current per TID run
+
+legacy/                                OLD
+  firmware/
+    early-prototypes/                        First LCD + LED SEU-detector / memory-scrubbing sketches
+    teensy-serial-versions/                  April 2026 Teensy serial sketches (Flash_FRAM_Serial2,
+                                             FRAM_FLASHwMask, New_FRAM_FLASHwMask, 4/24 variants)
+  software/
+    memory-test-monitor-2026-04-30/          Monitor GUI before the final 5/1 version
+    curve-fitting-drive/                     First curve-fit scripts (curvefit.py, curvefit2.py),
+                                             tables, run logs and write-ups from the team Drive
+    math-graphing/                           Jan-Feb 2026 scatter-plot experiments
+
+data/                                  Measurements, shared by both
+  pre-radiation-baseline/                    Baseline CSV logs (2026-05-01)
   pre-radiation-interruption/
+  proton-data/                               FRAM_run_* and FLASH_run_* proton beam logs
+  tid-data-processing/                       RunOUT* DUT logs, current plots, TID spreadsheets
   Curve-Fitting_TID_DRAFT.xlsx
+
 docs/
-  posters/                 Final posters (PDF + PPTX) and drafts
-  presentations/           Final presentation and drafts
-  notes/                   Meeting notes, testing summary, NASA TID report
-  photos/                  Test setup photos (HEIC/JPG)
+  research-reports/                          Software and Hardware research papers (PDF)
+  posters/                                   Final posters (PDF + PPTX) and drafts
+  presentations/                             Final presentation and drafts
+  photos/
+    tid-testing-vpt/                         TID testing at the VPT RAD facility
+    proton-and-neutron/                      Proton and neutron beam testing
+  notes/                                     Meeting notes, testing summary, NASA TID report
   SOULAR_Timetables.pdf
-hardware/                  CE3 Pro 3D-print G-code for Teensy 4.1 hardware
+hardware/                                    CE3 Pro G-code for Teensy 4.1 hardware
 ```
+
+## Research reports
+
+Two full papers were written from this project (June 30, 2026), both in [`docs/research-reports/`](docs/research-reports/):
+
+- [**Software paper**](docs/research-reports/Software_Research_Paper.pdf): *Beyond the Bit-Flip: A Real-Time Firmware and
+  Python Telemetry Pipeline for Detecting and Scrubbing Radiation-Induced Errors in FRAM and Flash SPI Memory.*
+- [**Hardware paper**](docs/research-reports/Hardware_Research_Paper.pdf): *Beyond High-Cost Radiation Shielding: Designing a
+  Low-Cost, BNC-Shielded Embedded Testbed for Comparative FRAM and Flash SPI Radiation Hardness Evaluation.*
+
+## Photos
+
+Test-day photos (converted to JPEG for easy viewing): [TID testing at VPT RAD](docs/photos/tid-testing-vpt/) and
+[proton and neutron testing](docs/photos/proton-and-neutron/).
 
 ## Quick start
 
+All paths below use the **current** code.
+
 **Firmware.** Install Arduino IDE with [Teensyduino](https://www.pjrc.com/teensy/td_download.html). Open
-`firmware/teensy-testbed/Flash_FRAM_Serial2.ino` and upload it to a Teensy 4.1. The early prototypes also need the
-[FRAM_MB85RS_SPI](https://github.com/christophepersoz/FRAM_MB85RS_SPI) and
+`current/firmware/Memory_Test_Monitor_Final_Version.ino` and upload it to a Teensy 4.1. The legacy prototypes also
+need the [FRAM_MB85RS_SPI](https://github.com/christophepersoz/FRAM_MB85RS_SPI) and
 [Adafruit_SPIFlash](https://github.com/adafruit/Adafruit_SPIFlash) libraries, which are not vendored here.
 
 **Monitor GUI.**
 
 ```bash
 pip install pyserial matplotlib
-python software/memory-test-monitor/memory_test_monitor_v3.py
+python current/software/memory-test-monitor/memory_test_monitor_v3.py
 ```
 
 Pick the serial port (115200 baud). The GUI parses the firmware's lines for FRAM chunks, Flash pages and full-scan
@@ -110,8 +151,11 @@ summaries, and plots error rate per bucket.
 
 ```bash
 pip install numpy pandas scipy matplotlib
-python software/curve-fitting/Curvefit.py data.csv --plot   # also: --gui, --web
+python current/software/curve-fitting/Curvefit.py data.csv --plot   # also: --gui, --web
 ```
+
+**TID current plots.** `current/software/tid-data-processing/plotTIDCurrent.py` reads `RunOUT*_DUT*.txt` files. Edit
+`DATA_DIR` at the top to point at [`data/tid-data-processing/`](data/tid-data-processing/).
 
 ## Authors
 
