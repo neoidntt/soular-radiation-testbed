@@ -1,0 +1,482 @@
+File 1: NSREC_SOULAR_PR_082025_students_submit.pptx
+
+Title: SOULAR, Space R3, NSREC and STEM - Puerto Rico Workforce Development 2026   
+
+    Slide 1: Title Slide
+
+        SOULAR, Space R3, NSREC and STEM - Puerto Rico Workforce Development 2026   
+
+    Slide 2: What is STEM?
+
+        Science, Technology, Engineering, and Mathematics: STEM   
+
+    Slide 3: Introduction to SOULAR
+
+        SOULAR (Students on Using Logic in AeRospace and AI) is a new national nonprofit initiative designed to ignite the next generation of innovators by connecting high school students with real-world experiences in aerospace, artificial intelligence (AI), and national security.  
+
+        This initiative was launched by world-renowned rocket scientist Melanie Berg with the mission to mentor the next generation and strengthen their creative and critical thinking skills in the field.  
+
+        SOULAR Status: 501(c)(3) non-profit organization.  
+
+    Slide 4: Leadership and Collaborators
+
+        Melanie Berg: CEO Space R3, Founder of SOULAR.  
+
+        Expertise areas: Subcontractor, ASIC Design, FPGAs in Space.  
+
+    Slide 5: What is NSREC?
+
+        Essentially, NSREC is a forum to discuss the latest findings on how radiation impacts electronics in harsh environments like space.  
+
+        NSREC stands for "Nuclear and Space Radiation Effects Conference," which is an annual international conference organized by the IEEE.  
+
+        Researchers present papers on the effects of radiation on materials, electronic devices, circuits, and systems used in space and nuclear applications.  
+
+    Slide 6: Target Locations and Focus
+
+        San Juan, Puerto Rico is our first NSREC City.  
+
+        NSREC City & POD Cities Focus: Advanced Technologies, Aerospace, and AI.  
+
+    Slide 7: Space Environment and Particles
+
+        Space particles, or cosmic rays, are high-energy subatomic particles like protons and atomic nuclei that travel near the speed of light.  
+
+        They originate from: outside our solar system (galactic cosmic rays from exploding stars) or from our own Sun (solar particle events).  
+
+    Slide 8: The Space Environment: 3 Main Particle Types
+
+        Galactic Cosmic Rays (GCRs): High-energy particles from beyond our solar system, primarily from the remnants of supernovae (exploding stars).  
+
+        Solar Particle Events (SPEs): Bursts of high-energy particles, mostly protons, released into space by the Sun during solar flares.  
+
+        Trapped Radiation: Charged particles, such as protons and electrons, that are captured and held in Earth's magnetic field, forming the Van Allen radiation belts.  
+
+        Note: While Earth's magnetic field and atmosphere shield us from most of this radiation, astronauts and high-altitude fliers receive significantly higher doses.  
+
+    Slide 9: Solar Flares in Action
+
+        These powerful eruptions can generate any or all of the following:
+
+            A bright flash of light called a solar flare.  
+
+            A radiation storm, or flurry of solar particles propelled into space at high speeds.  
+
+            An enormous cloud of solar material, called a coronal mass ejection (CME), that billows away from the Sun.  
+
+        Material rises from the edge of the Sun, as seen in extreme ultraviolet light by NASA's Solar Dynamics Observatory.  
+
+    Slide 10: Earth's Magnetic Shield
+
+        Magnetic Shield forming the Van Allen Radiation Belts.  
+
+        While Earth's magnetic field and atmosphere shield us (on Earth) from most of this radiation, spacecraft, astronauts, and high-altitude fliers receive significantly higher radiation doses.  
+
+    Slide 11: How Particles Affect Electronics in Space
+
+        Key parameters to study:
+
+            Safety: Can life be negatively impacted?   
+
+            Reliability: Will the system operate as expected?   
+
+            Availability: Will the system operate when expected?   
+
+            Recoverability: If the device malfunctions, can the system come back to a working state?   
+
+            Destructive events: Is there a possibility of latch-up or burnout?   
+
+            Trust: Will the insertion of the device compromise security?   
+
+    Slide 12: Aerospace and National Security Architecture
+
+        Microelectronic devices are used to process data or control critical components.  
+
+        Space radiation particles can strike electronic components and negatively impact their performance.  
+
+        Radiation effects in microelectronic devices can be catastrophic. We study how to keep systems safe.  
+
+    Slide 13: Microelectronic Controls in Critical Applications
+
+        Critical sectors requiring mitigation and assurance: Medical, Avionics, Military/Aerospace, Power Grids, Smart Cities, Automotive, GPS, Surveillance, Protective Infrastructures, Nuclear Power Plants.  
+
+        National Security and Safety depend entirely on mitigation and assurance design patterns.  
+
+    Slide 14: Test and Analysis Requirements
+
+        Before using electronics in critical applications, we test and analyze data to guarantee our system will meet program requirements.  
+
+        This involves:
+
+            Studying the device that we will test.  
+
+            Building a test system (Software and Hardware).  
+
+            Going to a test facility to gather data.  
+
+            Analyzing data for the target space environment using Math and Science.  
+
+    Slide 15: Proposed Project for NSREC 2026 and STEM-PR
+
+        NSREC 2026 will be held at the Sheraton Convention Center in San Juan, Puerto Rico.  
+
+        NSREC will have a dedicated Student Poster Session where teams or individuals can present their work to the world.  
+
+        SOULAR and Space R3 will work with 2 local Puerto Rico High Schools to build microelectronic projects, study space-radiation effects, and present results.  
+
+    Slide 16: Project Curriculum Core Tasks
+
+        Define radiation effects in space.  
+
+        Plan simple starter projects (Arduino software, testbed hardware, science of bit flips, probability mathematics).  
+
+        Facilitate advanced project evolution (advanced microcontrollers, complex hardware, data analysis).  
+
+        Describe testing facilities, particle beams (fluence), and how to set up active testbeds inside chamber rooms.  
+
+        Teach technical documentation, poster design, and professional presentation skills.  
+
+    Slide 17: Collaborative Project Structure
+
+        Divided into student technical segments: Math, Science, Hardware, and Software.  
+
+        Two schools will participate with a select group of students and local teacher liaisons (minimum 2 per school).  
+
+    Slide 18: Schedule and Milestones
+
+        Jun '25 - Aug '25: Sponsors create curriculum and select PR school liaisons and students.  
+
+        Aug '25 - Mar '26: Sponsors and liaisons hold regular mentoring meetings. High school students actively build and code their testbeds.  
+
+        Mar '26 - Jun '26: Test facility setup. Data analysis phase. Poster preparation for NSREC.  
+
+        July '26: Final presentation of student research posters at NSREC 2026 in San Juan, PR.  
+
+    Slide 19: Skillsets for the Math and Software Teams
+
+        Manual vs. computer-generated data graphing.  
+
+        Number systems: Understanding Decimal, Binary, and Hexadecimal representations.  
+
+        Probability models: Integrity calculations for safety, reliability, and availability.  
+
+        Pattern recognition: Continuous automated sorting through dataset arrays.  
+
+        Calculating and compiling radiation data metrics.  
+
+    Slide 20: Mathematical Review (Graphing and Exponents)
+
+        Line formulas: Y=mx+b.  
+
+        Calculating slope: m=xn​−xn−1​yn​−yn−1​​.  
+
+        Exponents: Xy. Base values where X0=1.  
+
+        Examples of binary and decimal conversions (1321=1×103+3×102+2×101+1×100).  
+
+File 2: Soular_Notes_February28_2026.pptx
+
+Title: University Gardens Memory Radiation Testing   
+
+    Slide 1: Core Concepts of Digital Memory
+
+        Memory structures store information inside designated physical register configurations.  
+
+        Every single memory cell contains a distinct numerical address locator.  
+
+        Write Routine: Issues a write command, targets the unique address, and transfers the data payload.  
+
+        Read Routine: Issues a read command, calls the target address, and the hardware returns the payload stored in that position.  
+
+    Slide 2: Number System Map Chart
+
+        Decimal (Base 10) vs. 4-Bit Binary (Base 2) vs. Hexadecimal (Base 16):   
+
+            0 = 0000 = 0x0   
+
+            1 = 0001 = 0x1   
+
+            2 = 0010 = 0x2   
+
+            3 = 0011 = 0x3   
+
+            4 = 0100 = 0x4   
+
+            5 = 0101 = 0x5   
+
+            6 = 0110 = 0x6   
+
+            7 = 0111 = 0x7   
+
+            8 = 1000 = 0x8   
+
+            9 = 1001 = 0x9   
+
+            10 = 1010 = 0xA   
+
+            11 = 1011 = 0xB   
+
+            12 = 1100 = 0xC   
+
+            13 = 1101 = 0xD   
+
+            14 = 1110 = 0xE   
+
+            15 = 1111 = 0xF   
+
+        Address space scaling examples: An 8192-byte range spans from address 0x0000 to 0x1FFF (0x2000 - 1).  
+
+    Slide 3: SPI Protocol Architecture (1-Byte Write Execution)
+
+        SPI Transaction Mechanics for standard 0x02 Write Commands:
+
+            Begin bus transaction.
+
+            Select the target device (pull Chip Select pin low).
+
+            Transmit command byte opcode (0x02).
+
+            Transmit 16-bit address splits (Upper Byte first, then Lower Byte).
+
+            Stream data byte.
+
+            De-select the target device (pull Chip Select pin high).
+
+            Conclude transaction.
+
+    Slide 4: SPI Burst Write Sequence
+
+        Executing full sequential blocks (Up to 8192 Bytes continuous burst):
+
+            Issue Write Enable latch instruction (WREN opcode command: 0x06).
+
+            Pull Chip Select low to select the device.
+
+            Send standard write command opcode (0x02).
+
+            Transmit the initial starting base address split (Upper Byte, then Lower Byte).
+
+            Stream successive data bytes continuously (Data 1, Data 2, Data 3 ... Data 8192).
+
+            De-select the device (Chip Select high) to terminate the burst cycle.
+
+    Slide 5: Firmware Architecture for an Active Radiation Test Loop
+
+        void setup(): Formulate a known steady data matrix layout and load/write it into the entirety of the memory structure.
+
+        void loop():
+
+            Read a specific address position array index sequentially.
+
+            Perform logic comparison against the baseline reference pattern block.
+
+            If mismatched (Bit-Flip fault detected): Invoke immediate correction script (overwrite address with its true original pattern state), increment the dedicated device fault counter variable, and immediately format and report telemetry via the hardware UART link (RS-232 serial connection).
+
+    Slide 6: Beam Facility Deployment Layout
+
+        Inside Proton Source Room: Contains the radiation beam terminal, the Teensy 4.1 microcontroller testbed, and the device under test (FRAM / Flash SPI modules).
+
+        Interconnect Line: Shielded long-distance cable connection lines delivering active hardware state lines out of the chamber.
+
+        Inside User Control Room: Monitoring terminal laptop executing a custom Python Serial I/O interpreter dashboard and standard Arduino Serial Monitors to log error data in real time.
+
+File 3: CSS_AerospaceDay_Feb92026.pptx
+
+Title: Shielding to Mitigate Radiation   
+
+    Slide 1: Title & Introduction
+
+        Shielding to Mitigate Radiation   
+
+        Presented by: Nicole Pothier McGillivray, Carrington Shield Strategies, LLC   
+
+        Event: SOULAR Aerospace Day (February 9, 2026)   
+
+        Speaker Biography: 10 years of professional industry experience evaluating space environmental radiation mechanics on deep-space exploration vehicles and spacecraft hardware. Specializes in charged particle modeling (electrons, protons, heavy ions), internal/external material interactions, Total Ionizing Dose (TID), Single Event Effects (SEE), and electrostatic space vehicle charging dynamics.  
+
+    Slide 2: Environmental Radiation Core Sources
+
+        Three fundamental particle sources dominate near-Earth orbital environments:
+
+            Intergalactic Cosmic Rays: Galactic Cosmic Rays (GCRs) coming from deep space. Highly energetic and penetration-heavy (∼1 MeV up to 1011 GeV).  
+
+            Solar Flares / Space Weather: Solar Particle Events (SPEs) driven by sudden coronal mass ejections (CMEs) and high-energy solar particle flurries.  
+
+            Trapped Radiation Fields: High-energy particle populations caught in Earth's magnetosphere (Inner belt is proton-heavy; Outer belt is electron-dominated).  
+
+    Slide 3: Shielding Material Properties & Densities
+
+        Particle attenuation behavior depends on chemical element selection and density layers:  
+
+            Aluminum (Al): Lightweight structural base; standard space engineering reference radiation shielding layer.
+
+            Lead (Pb) & Tungsten (W / Wolfram): Ultra-dense metallic elements used for high-mass targeted shielding zones to stop highly penetrating particles.
+
+        Note: 100 mils thickness equates to 2.54 mm of cross-sectional shielding.  
+
+    Slide 4: Near-Earth Space Particle Energy Scales
+
+        Typical Unshielded Particle Energies:   
+
+            Electrons: ∼10s de keV to 10s de MeV (Trapped fields and Solar events).  
+
+            Protons: ∼1 MeV up to 100s de GeV (GCRs, SPEs, and Trapped bands).  
+
+            Alpha/Heavy Ions: ∼1 MeV up to 1011 GeV (predominantly GCR vectors).  
+
+    Slide 5: Radiation Shielding Performance Curves
+
+        Total Ionizing Dose (TID) Metrics: Shows exponential dose drop-off as aluminum wall thickness reaches standard structural goals.  
+
+        Displacement Damage Dose (DDD) Analysis: Tracks structural material atom dislocations across varying shield thicknesses.  
+
+        Utilizes advanced orbital engineering simulation suites like CREME96 and SPENVIS.  
+
+    Slide 6: Formulating a Standard Poster Thesis via Scientific Method
+
+        Guidelines for creating a high-quality scientific research presentation:
+
+            Ask a Question: Identify a clear engineering problem (e.g., What exact shielding material and thickness options optimize radiation mitigation profiles for a specific target orbit?).  
+
+            Make a Hypothesis: Propose an educated, measurable guess (e.g., Aluminum offers an ideal mass-to-density ratio for effective structural radiation shielding.).  
+
+            Experiment/Test: Expose testbeds to varying multi-energy particle environments (proton, electron, heavy-ion beams) using diverse shield layers.  
+
+            Analysis: Calculate total dose reduction levels, plot error frequencies, and map out bit-flip trends.  
+
+            Conclude & Document: Formulate actionable conclusions backed by empirical test facility results, and thoroughly document every protocol.  
+
+File 4: Experimental Characterization and Comparative Analysis of Radiation-Induced Bit-Flip Errors in FRAM and Flash SPI Embedded Systems via a Teensy 4.1 Testbed.pptx
+
+Title: Radiation Memory Test - Flowchart   
+
+    Slide 1: Firmware Architecture and Telemetry Standard
+
+        System parameters: FRAM & FLASH Test Environment via a shared 4-wire SPI Bus running a 115,200 baud UART link between the Teensy 4.1 controller and the monitoring laptop.  
+
+    Slide 2: Main Operational Flowchart Overview
+
+        Phase 1: Hardware Setup   
+
+            Prepare the main Device Under Test (DUT), Teensy microchip controller, clean power supply rails, and high-integrity signal lines.  
+
+            Select testing environment type: Proton Beam, Neutron Beam, or TID/Gamma Chamber.  
+
+            Configure matching low-noise signal paths using heavy coaxial cabling.  
+
+        Phase 2: Teensy Write/Read Script Loops   
+
+            Write Phase: Accept base commands and load a known, static data pattern into the full memory space.  
+
+            Read Phase: Scan through all memory arrays sequentially.  
+
+            Verification Matrix: Compare returned payloads against reference values (FRAM handled chunk-by-chunk; Flash SPI handled page-by-page).  
+
+        Phase 3: Error Detection Logging and Reporting Route   
+
+            If data checks out cleanly → Loop continues memory sweeps.  
+
+            If anomalies are found → Increment cumulative error count indexes immediately.  
+
+            Stream error messages over UART to the monitoring laptop for real-time visualization and CSV generation.  
+
+    Slide 3: Testing Environments Summary Descriptions
+
+        Proton Beam Testing: The DUT operates actively inside the beam path while powered on. Control electronics must remain safely outside the chamber, utilizing long, heavily shielded BNC/coaxial cables to maintain data signal integrity.  
+
+        Neutron Beam Testing: The DUT operates actively in a high electrical noise beam environment. This requires localized coaxial cabling to filter out background noise spikes and prevent false-positive error logs.  
+
+        TID / Gamma Testing (Cobalt-60 Source): The testbed is placed unpowered (passively) inside a Co-60 chamber for a predetermined exposure interval. Following each cumulative dose step, the hardware is extracted from the chamber and hooked up to verification equipment to test for permanent functional degradation or latch-up failure.  
+
+    Slide 4: Detailed Step-by-Step Flowchart Outline
+
+        Start test setup.  
+
+        Prepare DUT, Teensy, memory breakout boards, cables, and test equipment.  
+
+        Select test type: Proton, Neutron, or TID/Gamma.  
+
+        Configure chamber and signal path (BNC/coax).  
+
+        Confirm signal integrity and low-noise wiring.  
+
+        Begin memory WRITE operation — Teensy loads data.  
+
+        Begin memory READ operation.  
+
+        Teensy reads memory and compares data to known pattern.  
+
+        If data is correct → continue loop (return to step 7).  
+
+        If data is incorrect → increment the cumulative error count.  
+
+        Teensy transmits error message via UART to laptop.  
+
+        Laptop logs, displays, and saves error event to CSV.  
+
+        Repeat until the test cycle ends. Save session summary.  
+
+File 5: Poster SOULAR.pptx
+
+Title: Experimental Characterization and Comparative Analysis of Radiation-Induced Bit-Flip Errors in FRAM and Flash SPI Embedded Systems via a Teensy 4.1 Testbed   
+
+    Slide 1: Header / Author Details
+
+        Project Title: Experimental Characterization and Comparative Analysis of Radiation-Induced Bit-Flip Errors in FRAM and Flash SPI Embedded Systems via a Teensy 4.1 Testbed.  
+
+        School: University Gardens High School.  
+
+        Authors: Yanichel J. Wiscovitch Vega, William Diaz Medero.  
+
+        Mentors & Advisors: Prof. Juliette M. Moreno Concepción, Dr. Cárorin Castro Rivera, Prof. Natcha Leon Lugo. Supported by the SOULAR nonprofit initiative and Space R3.  
+
+    Slide 2: Project Abstract
+
+        This project presents the hardware design of a radiation-effects testbed built around the Teensy 4.1 microcontroller. FRAM (MB85RS64, ferroelectric) and Flash SPI (W25Q16, floating-gate) are connected on a shared 4-wire SPI bus to compare each technology's susceptibility to radiation-induced bit-flip corruption. All error data is streamed over USB for real-time analysis.  
+
+    Slide 3: Problem Statement
+
+        Can radiation-induced SEE and TID effects cause irreversible bit-flip corruption in embedded memory systems, resulting in permanent data and programming loss in space environments?   
+
+    Slide 4: Project Scientific Background
+
+        Radiation in space and high-altitude environments causes Single Event Upsets (SEUs), which are transient bit-flips capable of corrupting system telemetry and crashing critical flights.  
+
+        Single Event Effects (SEE): Occur when an individual high-energy space particle strikes a memory cell, depositing localized charge that instantly flips a bit (0→1 or 1→0).  
+
+        Total Ionizing Dose (TID): Refers to long-term cumulative radiation exposure that damages gate-oxide layers, permanently shifting threshold voltages and causing parametric device failures over time.  
+
+        FRAM (Ferroelectric RAM): Stores bit values using ferroelectric crystal polarization states, making it fundamentally immune to traditional electronic charge injection anomalies.  
+
+        Flash SPI: Relies on trapping electrons within an isolated floating-gate design, rendering it highly vulnerable to both SEE ion impacts and long-term TID charge dissipation.  
+
+    Slide 5: Data Analysis Equations & Evaluation Criteria
+
+        Error Rate: Calculated as total bit-flip events per unit of time per unique memory device under test (Errors/Hour).  
+
+        Correction Efficiency Rate Formula:   
+        Correction Rate=(DetectedScrubbed/Corrected​)×100%
+
+        This metric evaluates the self-healing capability of the system's firmware.  
+
+        Bit-Position Heatmap: Pinpoints exactly which memory addresses and specific bit columns show higher physical vulnerability.  
+
+        Memory Comparison Matrix: Directly tracks side-by-side error counts of FRAM versus Flash SPI chips under identical beam exposure.  
+
+        Hypothesis/Expected Outputs: FRAM error counts are expected to approach zero, while Flash SPI will show a measurable bit-flip rate, validating FRAM as a radiation-tolerant alternative for aerospace embedded systems.  
+
+    Slide 6: Project Summary & Conclusions
+
+        This project establishes a replicable, low-cost testbed for characterizing radiation-induced memory errors in FRAM and Flash SPI using the Teensy 4.1. The custom firmware provides continuous memory scrubbing, the Python dashboard enables rigorous statistical analysis, and the final results will guide memory selection for radiation-aware embedded system designs in aerospace applications.  
+
+    Slide 7: Technical References
+
+        Fujitsu Semiconductor. MB85RS64 FRAM Datasheet, Rev. 1.1.   
+
+        Winbond Electronics. W25Q16 Flash SPI Datasheet.   
+
+        Holmes-Siedle & Adams. Handbook of Radiation Effects. Oxford University Press.  
+
+        JEDEC Standard 57. Test Procedures for Single Event Effects.   
+
+        PJRC. Teensy 4.1 Technical Reference. pjrc.com.

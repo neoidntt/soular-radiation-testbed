@@ -1,0 +1,63 @@
+SOULAR TESTING SUMMARY:
+
+
+
+
+
+
+
+
+The Jumper cable is one signal; instead of sending the signals like this (one cable is the signal and you have to have many more cables for the ground for each signal), they are sent like this = BMC (in which every signal already has a ground, when they come from the teensy to the memory), making it cleaner. Also, using BMC has less interference.
+
+Testing:
+
+Neutron (Communicates with device, that's why we use BNC)- Same as proton (Except the Neutrons are really good at phasing through materials). Couldn't get data since it was too noisy
+
+Proton- Borax, Borated Polly are good as a protection from Proton (Communicates with device, that's why we use BNC)- The DUT (Device under Test) is powered on biased, and we are operating fully as expected while the DUT is exposed to the beam (in the chamber).
+	Problems: test equipment (Teensy, power supply, laptops, and people) cannot be in the same room. That means we need a long cable for our test equipment to communicate with the DUT (Device under Test)
+		We need low-noise wires and cables (BNC), since jumpers were no good. We switch to BNCs so that each signal (wire) will go 		from test equipment to the DUT with its own private ground (to each signal
+	Got data from proton testing.
+
+
+
+TID/Gamma Rays(Cobalts 60 is what it spews out during testing. We don't communicate with the device from outside the room, so we don't use BNC)- Total Ionizing Dose
+	Approach to testing: Stick the DUT (Device under test) in the chamber and turn on the power.
+	Take the DUT (Device under testing) out of the chamber and connect it to the system. Then we test the full system (Outside of 	the chamber)
+	We're checking to see at which dose step the DUT stops working as expected
+
+
+
+
+
+BNC + Coax cable = The black cable is the Coax, and the silver is the BNC
+
+RJ45 Adapter = Silver area is where the Ethernet cable comes in, or better called RJ45. The green area is where the jumper wires connect to the memory.
+
+
+
+
+Software poster = Flowchart
+
+
+Hardware = The testing images and the schematic of our Teensy Plus memories
+
+
+
+Flash is like a USB stick (Doesn't have power but holds info)- It's important for space cycles, and you don't want to lose memory
+
+
+
+
+Flowchart:
+
+1. Teensy accepts the command to start writing
+
+2. Teensy loads the memory with data
+
+3. Teensy accepts the command to start reading
+
+4. Teensy reads the entire memory. If incorrect data is read, then the error count is incremented and the Teensy sends a message to the laptop
+
+5. Error, if no error it keeps looping until it gets an error (Continuous loop)
+
+6. Teensy sends message to laptop. Laptop receives error

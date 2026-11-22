@@ -1,0 +1,14 @@
+ Tester: Teensy (you are now moving away from the arduino... but will still use the arduino IDE.  Look on line how to include the Teensy library into the arduino IDE (Teensyduino)
+
+Device Under Test (DUT): you will be testing two different non-volitile memories (FRAM and Flash).
+Start with writing the code for the FRAM.
+
+You'll need to download the libraries (to the arduino/teensy ide) to be able to read and write the memory.  Here's the git page for the FRAM (code has only been tested with a teensy):
+https://github.com/christophepersoz/FRAM_MB85RS_SPI.git
+
+Flash Memory:
+Product: Adafruit QSPI DIP Breakout Board - W25Q16 - 16 MBit 2 MByte [W25Q16JVSSIQ] : Adafruit Industries, Unique & fun DIY electronics and kits
+
+This is for libraries necessary for the Flash (ADAFruit)
+GitHub - adafruit/Adafruit_SPIFlash: Arduino library for external (Q)SPI flash device
+

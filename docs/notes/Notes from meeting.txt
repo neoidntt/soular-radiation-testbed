@@ -1,0 +1,7 @@
+1. Bit-Flip Error Mitigation in Volatile Memory: A Hardware-Implemented SEU Detection and Correction Framework
+
+2. Emulation of Radiation-Hardened Memory Architecture Through Automated Single Event Upset Detection and Scrubbing
+
+3. Cosmic Ray-Induced Bit-Flip Detection and Real-Time Memory Scrubbing Using Microcontroller-Based Fault-Tolerant Systems
+
+4. Implementing Radiation-Resistant Computing: A Microcontroller-Based Approach to SEU Monitoring and Autonomous Bit-Error Recovery
